@@ -37,41 +37,43 @@ if you do not know how to do this. *Please note*, as Window&#39;s machines are m
      
 ## 3. The dev Environment
 
-  - [ ] ### Get the vagrant file for setup
-      - [ ] Copy the content from the Vagrantfile
+### Get the vagrant file for setup
+  - [ ] Copy the content from the Vagrantfile
       [Vagrantfile](https://github.com/codingphasedotcom/vagrant-settings/blob/master/Vagrantfile)
-    - [ ] ### The Goodies
-        - [ ] Open virtual box application and leave it running in the 
+      
+     ### The Goodies
+     
+      - [ ] Open virtual box application and leave it running in the 
           background.
-        - [ ] Navigate to home folder and create a folder named projects (C:\projects)
-        - [ ] Open bash terminal in this location. \*\*(If you do not have ubuntu bash you can use git bash which is an alternative bash for windows. It installs git and has a bash terminal bundled called git bash. Download and install using defaults [https://git-scm.com/downloads](https://git-scm.com/downloads) )
-        - [ ] In terminal, navigate into your projects folder
+      - [ ] Navigate to home folder and create a folder named projects (C:\projects)
+      - [ ] Open bash terminal in this location. \*\*(If you do not have ubuntu bash you can use git bash which is an alternative bash for windows. It installs git and has a bash terminal bundled called git bash. Download and install using defaults [https://git-scm.com/downloads](https://git-scm.com/downloads) )
+      - [ ] In terminal, navigate into your projects folder
            
                 cd projects
                 
-        - [ ] Initialize vagrant
+      - [ ] Initialize vagrant
                 
                 vagrant init
                 
-        - [ ] You should now have a file *Vagrantfile*. Open Vagrantfile in
+      - [ ] You should now have a file *Vagrantfile*. Open Vagrantfile in
            your code editor (vscode, atom, sublime etc) and replace the 
            content in this file with the content you copied from the 
            *vagrant-settings repo Vagrantfile*. Save the file.
            
-       - [ ] Install the virtual machine (Be patient. May take a while. Depends on your system).
+     - [ ] Install the virtual machine (Be patient. May take a while. Depends on your system).
                         
                 vagrant up
                         
-       - [ ] Using bash terminal in Windows, enter the virtual machine
+     - [ ] Using bash terminal in Windows, enter the virtual machine
                         
                 vagrant ssh 
                 
-       - [ ] Using your Windows bash terminal, if you have been successful to this point, test it out by viewing the files/folders in your home directory. 
+     - [ ] Using your Windows bash terminal, if you have been successful to this point, test it out by viewing the files/folders in your home directory. 
                              
                     ls  
           ![Hyper-V Enabled](img/2.png)  
           
-        - [ ] Navigate to the projects folder           
+      - [ ] Navigate to the projects folder           
                                                         
                   
               cd projects 
