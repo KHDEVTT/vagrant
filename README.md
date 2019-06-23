@@ -93,10 +93,9 @@ if you do not know how to do this. *Please note*, as Window&#39;s machines are m
     
 ![files](img/3.png)
 
-  - [ ] install starter kit dependencies
-  
-  
-    npm install
+  - [ ] install starter kit dependencies  
+      
+        npm install
     
     
 ## ERROR FIX
@@ -105,59 +104,55 @@ if it applies to you
 
   ![files](img/4.png)
   
-  - [ ] Clean cache   
+  - [ ] Clean cache    
+      
+        npm cache clean --force
     
-    
-    npm cache clean --force
-    
-  - [ ] Delete node modules folder  
+  - [ ] Delete node modules folder       
       
+        rm -rf node_modules
       
-      rm -rf node_modules
+  - [ ] install starter kit dependencies      
       
-  - [ ] install starter kit dependencies  
-      
-      
-      npm install --no-bin-link
+        npm install --no-bin-link
       
   This is the end of the error stuff.
       
   ### Double Check Time...
   
-  - [ ] Make sure you have gulp, gulp-cli, webpack, webpack-cli installed
+  - [ ] Make sure you have gulp, gulp-cli, webpack, webpack-cli installed    
       
+        gulp -v
       
-      gulp -v
-      webpack -v
+        webpack -v
       
-  - [ ] If not installed, run the following commands (or the ones that apply)      
+  - [ ] If not installed, run the following commands (or the ones that apply)         
       
+        sudo npm install gulp@4.0
       
-      sudo npm install gulp@4.0
-      sudo npm install webpack@4.25.1 -g
-      sudo npm install webpack-cli@3.1.2 -g
+        sudo npm install webpack@4.25.1 -g
+      
+        sudo npm install webpack-cli@3.1.2 -g
       
   ### Start the Starter Kit
       
-  - [ ] Start it up...      
+  - [ ] Start it up...       
       
-      
-      npm run watch
+        npm run watch
       
   - [ ] Test that it's working. In your browser go to http://localhost:3000
   
   ### FIX For The File Watcher
   
-  - [ ] If your virtual machine is still running, shut it down
+  - [ ] If your virtual machine is still running, shut it down      
       
+        exit
       
-      exit
-      vagrant halt
+        vagrant halt
       
-  - [ ] Open Vagrantfile in your code editor and add the following
+  - [ ] Open Vagrantfile in your code editor and add the following      
       
-      
-      fsnotify: true
+        fsnotify: true
       
   ![Location to append change](img/5.png)
   
