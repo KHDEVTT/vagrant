@@ -17,6 +17,7 @@
 - [ ] Turn on Virtualization  if it is not on. Follow the links to assist you 
 if you do not know how to do this. *Please note*, as Window&#39;s machines are made by different manufacturers the process may differ slightly, but the general concept is the same.
     - [ ] [Turn on Virtualization ](https://www.youtube.com/watch?v=tTS0SF_s-0g)
+    - [ ] [Check for Virtualization](https://www.shaileshjha.com/how-to-find-out-if-intel-vt-x-or-amd-v-virtualization-technology-is-supported-in-windows-10-windows-8-windows-vista-or-windows-7-machine/)
      
 
         
