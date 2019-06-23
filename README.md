@@ -87,10 +87,9 @@ if you do not know how to do this. *Please note*, as Window&#39;s machines are m
    - [ ] Navigate to the starter kit folder   
                          
           cd starter-kit-vagrant
-   - [ ] Make sure you are in the root of the starter kit. If the package.json file is listed, you&#39;re in the right place.    
-      
+   - [ ] Make sure you are in the root of the starter kit. If the package.json file is listed, you&#39;re in the right place.            
         
-        ls
+          ls
     
 ![files](img/3.png)
 
