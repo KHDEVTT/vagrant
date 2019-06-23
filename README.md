@@ -98,7 +98,9 @@ if you do not know how to do this. *Please note*, as Window&#39;s machines are m
   
     npm install
     
- ##ERROR FIX
+    
+## ERROR FIX
+
 if it applies to you 
 
   ![files](img/4.png)
