@@ -187,10 +187,3 @@ if it applies to you
   Created by [Karen Headley](https://khdevtt.com)    to assist the students 
   of [CodingPhase](https://codingphase.com)
   
-      
-   
-   
-   
-   
-        
-  
