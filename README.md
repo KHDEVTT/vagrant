@@ -105,18 +105,18 @@ if it applies to you
 
   ![files](img/4.png)
   
-  - [ ] Clean cache 
-  
+  - [ ] Clean cache   
+    
     
     npm cache clean --force
     
-  - [ ] Delete node modules folder
-  
+  - [ ] Delete node modules folder  
+      
       
       rm -rf node_modules
       
-  - [ ] install starter kit dependencies
-  
+  - [ ] install starter kit dependencies  
+      
       
       npm install --no-bin-link
       
@@ -125,12 +125,12 @@ if it applies to you
   ### Double Check Time...
   
   - [ ] Make sure you have gulp, gulp-cli, webpack, webpack-cli installed
-
+      
       
       gulp -v
       webpack -v
       
-  - [ ] If not installed, run the following commands (or the ones that apply)
+  - [ ] If not installed, run the following commands (or the ones that apply)      
       
       
       sudo npm install gulp@4.0
@@ -139,7 +139,7 @@ if it applies to you
       
   ### Start the Starter Kit
       
-  - [ ] Start it up...
+  - [ ] Start it up...      
       
       
       npm run watch
